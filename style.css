@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+#menu {
+  margin-top: 100px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#gameArea {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.target {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+}
+
+#hud {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
