@@ -8,14 +8,25 @@
 <body>
   <div id="menu">
     <h1>Aim Trainer</h1>
+
+    <div>
+      <label for="level">Practice Difficulty:</label>
+      <select id="level">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+
     <button onclick="startGame('practice')">Practice (Endless)</button>
-    <button onclick="startGame('test')">Test (60s)</button>
+    <button onclick="startGame('test')">Test (30s)</button>
   </div>
 
   <div id="hud" class="hidden">
-    <div>Time: <span id="time">60</span></div>
+    <div>Time: <span id="time">30</span></div>
     <div>Hits: <span id="hits">0</span></div>
     <div>Misses: <span id="misses">0</span></div>
+    <div>Accuracy: <span id="accuracy">100%</span></div>
     <div>Score: <span id="score">0</span></div>
     <button onclick="endGame()">End</button>
   </div>
