@@ -10,11 +10,10 @@ body {
   margin-top: 100px;
 }
 
-button {
-  padding: 15px 30px;
-  font-size: 18px;
+button, select {
+  padding: 12px 20px;
+  font-size: 16px;
   margin: 10px;
-  cursor: pointer;
 }
 
 #gameArea {
@@ -27,8 +26,6 @@ button {
 
 .target {
   position: absolute;
-  width: 50px;
-  height: 50px;
   background: red;
   border-radius: 50%;
 }
@@ -37,7 +34,7 @@ button {
   position: fixed;
   top: 10px;
   left: 10px;
-  font-size: 18px;
+  text-align: left;
 }
 
 .hidden {
